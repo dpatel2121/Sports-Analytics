@@ -3,11 +3,11 @@
 
 This project aims to leverage business intelligence techniques to conduct a comprehensive analysis of NBA player statistics, team performance metrics, and social media engagement during the 2016-2017 season. I aim to extract valuable insights that can empower General Managers (GMs) of NBA teams in making strategic decisions for their team.
 
-
 # Introduction
 The objective of this project was to create a complete dashboard for NBA team managers and executive teams. These dashboards will provide insights into player performance, salary justification, fan engagement, team performance and other key metrics. The dashboard aimed to help with decision-making processes and strategic planning within the organization for better success of the team.
 
 # Dashboard #1 Player Salary vs Age 
+![NBA Player salary](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/87880f0a-2db0-4f20-b111-decb84ea3195)
 
 The objective of this dashboard is to provide a comprehensive overview of NBA player salary caps for the 2017-2018 season, along with detailed player draft numbers linked to each player. The dashboard offers insights into team spending, player salaries, and the distribution of player ages within various positions. This report is found under the “Player Salary” section.
 
@@ -28,6 +28,7 @@ How to use:
 You can see an overview of players' salaries in a complex pie chart. You can begin to filter by adjusting age to your requirement and select a player of your choice to learn more about him. As you type the age, you can see the table drill down on players in that age group. You can select any player and learn what number they were drafted in the NBA and how much they are getting paid. You can understand why high drafted numbers get paid more as they are more skilled. You can select these players from the pie chart and also learn about their details that way. You can also see how age past 35 impacts a player's earnings by a lot as a player starts to perform badly.
 
 # Dashboard #2 ELO rating
+![ELO](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/e5ec03eb-07df-454b-934a-a1b6a823f4f0)
 
 Overview
 
@@ -71,6 +72,8 @@ How to use:
 The report is designed to be intuitive and user-friendly, allowing users to quickly understand the current state of NBA ELO ratings. You can click on East or West and drill down conference data by looking at teams in each conference. You can also filter each team by simply clicking on the team’s name on a graph and pinpoint exactly where they lie on a graph to compare with other teams. The team you have clicked will be shown on a table with the values you are looking for and understand their ELO rating.
 
 # Dashboard #3 Rookies Performance
+![Rookie](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/cbde4ef2-a01c-40bf-8fe7-6f66a2cba637)
+
 
 Objective
 
@@ -125,6 +128,7 @@ Users can click on players from the table to drill down to their stats on a righ
 # Dashboard #4 Social Media and Engagement Report
 
 # Report #1 
+![social media #1](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/be108cfc-dfbf-4090-897d-7a2db16b16c3)
 
 Overview
 
@@ -160,6 +164,7 @@ Engagement Metrics Breakdown:
 - Strategic Decision-Making: Informs decisions about player salaries, marketing strategies, and talent acquisition based on engagement metrics.
 
 # Report #2  
+![social media #2](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/a6290095-ba69-4a4e-a854-aec3afb78331)
 
 Overview:
 
@@ -170,5 +175,9 @@ The objective of this dashboard is to compare NBA players' endorsement deals, th
 - Branding Success Patterns: Identifies successful branding and market value capitalization based on fan engagement.
 - Value Representation: Helps determine if a player’s financial earnings (both salary and endorsements) are well-aligned with their popularity and engagement.
 - Strategic Decision-Making: Aids owners, coaches, and marketing professionals in making informed decisions about player marketability and financial agreements. reflect their standing from a purely fan engagement perspective.
+
+Other Dashboards 
+
+![avg pts player vs age](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/cd43a934-d944-4f96-a64d-d3accb0e40ec)
 
 
