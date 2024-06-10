@@ -1,7 +1,0 @@
-The objective of this dashboard is to provide a comprehensive overview of NBA player salary caps for the 2017-2018 season, along with detailed player draft numbers linked to each player. The dashboard offers insights into team spending, player salaries, and the distribution of player ages within various positions. This report is found under the “Player Salary” section.
-
-# Key Features
-- The dashboard displays a summary of each NBA player’s total salary cap for the year 2017. This allows users to quickly compare spending across players and identify high-earned and low-earned players.
-- The linked dataset provides detailed information about each player and their corresponding salaries for the year 2017-2018. Users can explore this data to understand which players contribute to the league in that season. We can identify any particularly high-earning players while reviewing their performance from the player and team performance dashboards in this project.
-- The slicer report allows users to select a specific age range for NBA players. This functionality enables users to filter player data based on age.
-- The dashboard is interactive, allowing users to drill down into specific teams or players for more detailed information. For example, clicking on a player name will reveal player salaries, or selecting a specific age range will dynamically update the displayed player data.
