@@ -27,49 +27,57 @@ How to use:
 
 You can see an overview of players' salaries in a complex pie chart. You can begin to filter by adjusting age to your requirement and select a player of your choice to learn more about him. As you type the age, you can see the table drill down on players in that age group. You can select any player and learn what number they were drafted in the NBA and how much they are getting paid. You can understand why high drafted numbers get paid more as they are more skilled. You can select these players from the pie chart and also learn about their details that way. You can also see how age past 35 impacts a player's earnings by a lot as a player starts to perform badly.
 
-# Dashboard #2 ELO rating
-![ELO](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/e5ec03eb-07df-454b-934a-a1b6a823f4f0)
+# Dashboard #2 Social Media and Engagement Report
+
+# Report #1 
+![social media #1](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/be108cfc-dfbf-4090-897d-7a2db16b16c3)
 
 Overview
 
-This dashboard provides a comprehensive analysis of ELO ratings and their impact on player salary decisions and team salary cap management. ELO ratings are a valuable metric for evaluating player performance relative to their peers and the league as a whole. This README explains how ELO ratings influence team strategies and decisions, and how our dashboard can be utilized to gain deeper insights into these dynamics.
+This dashboard provides a high-level overview of social media engagement metrics for NBA players, using data from the 2017 season. It includes three primary social media metrics: Twitter Favourites, Twitter Retweets, and Wikipedia Pageviews. The dashboard displays the influence of these metrics on NBA player salaries, allowing comparisons by position, team, and individual player.
 
 # Key Features
 
-Influence on Player Salaries:
+Aggregated Social Media Metrics:
 
-- Teams with higher ELO ratings are often more valuable due to their consistent performance and contribution to winning games.
-- Players with higher ELO ratings tend to have higher market value, leading to increased salary demands during contract negotiations.
-- Teams may offer higher salaries to attract and retain players with high ELO ratings, viewing them as critical assets for team success.
+- Display cards at the top show the total values for Twitter Favourites, Twitter Retweets, and Wikipedia Pageviews.
+- These cards provide a quick snapshot of each metric's total values and dynamically update when drilling down by team or player.
 
-Team Salary Cap Management:
+Key Influencers Analysis:
 
-- Teams must balance their roster to stay within salary cap limits while maximizing performance.
-- Strategic decisions involve investing in high ELO rating players to enhance team performance and success.
-- Higher salaries and longer-term contracts may be offered to top talent to maintain a competitive edge.
+- The 'Key Influencers' section analyzes various statistics against player salaries (in millions).
+- Includes both social media metrics and performance-based game statistics.
+- Displays correlations between these statistics and salary increases.
+- Grey bubbles indicate the influence of each statistic on salary; the further the bubble, the greater the influence.
+- Clicking a bubble opens a chart visualizing the correlation for that particular statistic.
 
-Conference Breakdown:
+Engagement Metrics Breakdown:
 
-- The dashboard allows for comparison of ELO ratings across all teams, with a detailed breakdown by conference.
-- Managers from opposite conferences can evaluate players based on ELO ratings, aiding in better contract negotiations.
-- Insights from the dashboard help understand overall league performance in terms of ELO ratings.
-
-Free Agent Market:
-
-- The top 5 teams with the highest ELO ratings are desirable locations for free agents aiming to win championships.
-- ELO ratings guide free agents in making informed decisions about joining teams with strong winning potential.
+- A bar chart showing average engagement metrics by player position (Point Guard, Small Forward, Centre, Power Forward, Shooting Guard).
+- Allows comparisons of social media engagement across different positions.
+- Drill-down functionality for detailed breakdowns by team and individual player.
+- Helps identify which positions, teams, and players receive the most social media engagement.
 
 # Benefits of the Dashboard
+- Quick Snapshot of Social Media Metrics: Display cards provide an at-a-glance view of total social media engagement metrics.
+- Salary Correlation Analysis: Identifies which statistics (social media and performance-based) correlate with higher salaries.
+- In-Depth Engagement Analysis: Detailed breakdowns by position, team, and player help identify trends and discrepancies in social media engagement.
+- Marketing and Talent Insights: Useful for marketing teams, talent scouts, owners, and coaches to understand public engagement and player value.
+- Strategic Decision-Making: Informs decisions about player salaries, marketing strategies, and talent acquisition based on engagement metrics.
 
-- Performance Assessment: Provides a clear metric for assessing player performance relative to the league.
+# Report #2  
+![social media #2](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/a6290095-ba69-4a4e-a854-aec3afb78331)
 
-- Market Value Determination: Helps teams and players determine fair market value during contract negotiations.
-- Strategic Decision-Making: Aids teams in making informed decisions about roster composition and salary cap management.
-- Financial Flexibility: Ensures teams maintain financial flexibility while optimizing player contributions.
+Overview:
 
-How to use: 
+The objective of this dashboard is to compare NBA players' endorsement deals, their financial earnings, and their social media presence. It provides insights into the relationship between a player’s market value and their popularity among fans. This report is found under “Engagement Metrics vs. Endorsements and Salary”.
 
-The report is designed to be intuitive and user-friendly, allowing users to quickly understand the current state of NBA ELO ratings. You can click on East or West and drill down conference data by looking at teams in each conference. You can also filter each team by simply clicking on the team’s name on a graph and pinpoint exactly where they lie on a graph to compare with other teams. The team you have clicked will be shown on a table with the values you are looking for and understand their ELO rating.
+# Benefits of the Dashboard
+- Market Value Analysis: Provides a clear comparison of player endorsements and salaries against their social media engagement metrics.
+- Branding Success Patterns: Identifies successful branding and market value capitalization based on fan engagement.
+- Value Representation: Helps determine if a player’s financial earnings (both salary and endorsements) are well-aligned with their popularity and engagement.
+- Strategic Decision-Making: Aids owners, coaches, and marketing professionals in making informed decisions about player marketability and financial agreements. reflect their standing from a purely fan engagement perspective.
+
 
 # Dashboard #3 Rookies Performance
 ![Rookie](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/cbde4ef2-a01c-40bf-8fe7-6f66a2cba637)
@@ -125,58 +133,51 @@ How to use:
 Users can click on players from the table to drill down to their stats on a right table under Player Stats. Users can also use sliders on scatter charts to zoom in and out of the chart and filter players based on their points per game (PPG) and FG%. Higher the PPG, higher their minutes played in a game. The size of each point on the chart is based on how much time the player is playing the game which helps you visualize top performers. You can also use an efficiency slicer to narrow the search by desired %. All players have their respective stats showcase in a table format which can be customized from the main dataset (CSV file) attached to this dashboard. One can add or remove the category of their choice.
 
 
-# Dashboard #4 Social Media and Engagement Report
-
-# Report #1 
-![social media #1](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/be108cfc-dfbf-4090-897d-7a2db16b16c3)
+# Dashboard #4 ELO rating
+![ELO](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/e5ec03eb-07df-454b-934a-a1b6a823f4f0)
 
 Overview
 
-This dashboard provides a high-level overview of social media engagement metrics for NBA players, using data from the 2017 season. It includes three primary social media metrics: Twitter Favourites, Twitter Retweets, and Wikipedia Pageviews. The dashboard displays the influence of these metrics on NBA player salaries, allowing comparisons by position, team, and individual player.
+This dashboard provides a comprehensive analysis of ELO ratings and their impact on player salary decisions and team salary cap management. ELO ratings are a valuable metric for evaluating player performance relative to their peers and the league as a whole. This README explains how ELO ratings influence team strategies and decisions, and how our dashboard can be utilized to gain deeper insights into these dynamics.
 
 # Key Features
 
-Aggregated Social Media Metrics:
+Influence on Player Salaries:
 
-- Display cards at the top show the total values for Twitter Favourites, Twitter Retweets, and Wikipedia Pageviews.
-- These cards provide a quick snapshot of each metric's total values and dynamically update when drilling down by team or player.
+- Teams with higher ELO ratings are often more valuable due to their consistent performance and contribution to winning games.
+- Players with higher ELO ratings tend to have higher market value, leading to increased salary demands during contract negotiations.
+- Teams may offer higher salaries to attract and retain players with high ELO ratings, viewing them as critical assets for team success.
 
-Key Influencers Analysis:
+Team Salary Cap Management:
 
-- The 'Key Influencers' section analyzes various statistics against player salaries (in millions).
-- Includes both social media metrics and performance-based game statistics.
-- Displays correlations between these statistics and salary increases.
-- Grey bubbles indicate the influence of each statistic on salary; the further the bubble, the greater the influence.
-- Clicking a bubble opens a chart visualizing the correlation for that particular statistic.
+- Teams must balance their roster to stay within salary cap limits while maximizing performance.
+- Strategic decisions involve investing in high ELO rating players to enhance team performance and success.
+- Higher salaries and longer-term contracts may be offered to top talent to maintain a competitive edge.
 
-Engagement Metrics Breakdown:
+Conference Breakdown:
 
-- A bar chart showing average engagement metrics by player position (Point Guard, Small Forward, Centre, Power Forward, Shooting Guard).
-- Allows comparisons of social media engagement across different positions.
-- Drill-down functionality for detailed breakdowns by team and individual player.
-- Helps identify which positions, teams, and players receive the most social media engagement.
+- The dashboard allows for comparison of ELO ratings across all teams, with a detailed breakdown by conference.
+- Managers from opposite conferences can evaluate players based on ELO ratings, aiding in better contract negotiations.
+- Insights from the dashboard help understand overall league performance in terms of ELO ratings.
 
-# Benefits of the Dashboard
-- Quick Snapshot of Social Media Metrics: Display cards provide an at-a-glance view of total social media engagement metrics.
-- Salary Correlation Analysis: Identifies which statistics (social media and performance-based) correlate with higher salaries.
-- In-Depth Engagement Analysis: Detailed breakdowns by position, team, and player help identify trends and discrepancies in social media engagement.
-- Marketing and Talent Insights: Useful for marketing teams, talent scouts, owners, and coaches to understand public engagement and player value.
-- Strategic Decision-Making: Informs decisions about player salaries, marketing strategies, and talent acquisition based on engagement metrics.
+Free Agent Market:
 
-# Report #2  
-![social media #2](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/a6290095-ba69-4a4e-a854-aec3afb78331)
-
-Overview:
-
-The objective of this dashboard is to compare NBA players' endorsement deals, their financial earnings, and their social media presence. It provides insights into the relationship between a player’s market value and their popularity among fans. This report is found under “Engagement Metrics vs. Endorsements and Salary”.
+- The top 5 teams with the highest ELO ratings are desirable locations for free agents aiming to win championships.
+- ELO ratings guide free agents in making informed decisions about joining teams with strong winning potential.
 
 # Benefits of the Dashboard
-- Market Value Analysis: Provides a clear comparison of player endorsements and salaries against their social media engagement metrics.
-- Branding Success Patterns: Identifies successful branding and market value capitalization based on fan engagement.
-- Value Representation: Helps determine if a player’s financial earnings (both salary and endorsements) are well-aligned with their popularity and engagement.
-- Strategic Decision-Making: Aids owners, coaches, and marketing professionals in making informed decisions about player marketability and financial agreements. reflect their standing from a purely fan engagement perspective.
 
-Other Dashboards 
+- Performance Assessment: Provides a clear metric for assessing player performance relative to the league.
+
+- Market Value Determination: Helps teams and players determine fair market value during contract negotiations.
+- Strategic Decision-Making: Aids teams in making informed decisions about roster composition and salary cap management.
+- Financial Flexibility: Ensures teams maintain financial flexibility while optimizing player contributions.
+
+How to use: 
+
+The report is designed to be intuitive and user-friendly, allowing users to quickly understand the current state of NBA ELO ratings. You can click on East or West and drill down conference data by looking at teams in each conference. You can also filter each team by simply clicking on the team’s name on a graph and pinpoint exactly where they lie on a graph to compare with other teams. The team you have clicked will be shown on a table with the values you are looking for and understand their ELO rating.
+
+# Additional Dashboard
 
 ![avg pts player vs age](https://github.com/dpatel2121/Sports-Analytics/assets/154410616/cd43a934-d944-4f96-a64d-d3accb0e40ec)
 
